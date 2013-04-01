@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Projects\FontBuddySample\externals\FontBuddy\Source\FontBuddy.cs">
+    <Files>
+      <File FileName="c:\Projects\FontBuddySample\externals\FontBuddy\Source\ShadowTextBuddy.cs" Line="21" Column="53" />
+      <File FileName="Game1.cs" Line="63" Column="1" />
+      <File FileName="c:\Projects\FontBuddySample\externals\FontBuddy\Source\FontBuddy.cs" Line="53" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="FontBuddy.Windows" expanded="True">
+            <Node name="FontBuddy.cs" selected="True" />
+          </Node>
+          <Node name="FontBuddySample.Windows" expanded="True">
+            <Node name="Content" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Projects\FontBuddySample\Windows\FontBuddySample.Windows\Game1.cs" line="63" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
