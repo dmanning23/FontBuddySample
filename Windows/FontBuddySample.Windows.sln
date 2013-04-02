@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddySample.Windows", "FontBuddySample.Windows.csproj", "{61E3BA26-E405-49F5-AC52-345B48813C20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddy.Windows", "..\..\externals\FontBuddy\Windows\FontBuddy.Windows.csproj", "{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddy.Windows", "..\externals\FontBuddy\Windows\FontBuddy.Windows.csproj", "{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
