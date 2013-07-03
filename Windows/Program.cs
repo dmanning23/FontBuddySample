@@ -1,11 +1,8 @@
-#region Using Statements
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-#endregion
-
-namespace FontBuddySample.Windows
+namespace FontBuddySample
 {
 	static class Program
 	{

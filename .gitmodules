@@ -4,3 +4,9 @@
 [submodule "externals/XNA"]
 	path = externals/XNA
 	url = https://github.com/dmanning23/XnaCompiledResources.git
+[submodule "externals/ouya-csharp"]
+	path = externals/ouya-csharp
+	url = https://github.com/dmanning23/ouya-csharp.git
+[submodule "externals/MonoGame"]
+	path = externals/MonoGame
+	url = https://github.com/dmanning23/MonoGame.git
