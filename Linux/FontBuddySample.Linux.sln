@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidgren.Network.Linux", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.Linux", "..\externals\MonoGame\MonoGame.Framework\MonoGame.Framework.Linux.csproj", "{35253CE1-C864-4CD3-8249-4D1319748E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddy.Linux", "..\externals\FontBuddy\Linux\FontBuddy.Linux.csproj", "{64DE607E-28C8-464D-9622-681FAC7CA36D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddyLib.Linux", "..\externals\FontBuddy\Linux\FontBuddyLib.Linux.csproj", "{E0E6169F-4E34-4FDE-90E3-5B5C62BB65F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Debug|x86.Build.0 = Debug|x86
 		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|x86.ActiveCfg = Release|x86
 		{35253CE1-C864-4CD3-8249-4D1319748E8F}.Release|x86.Build.0 = Release|x86
-		{64DE607E-28C8-464D-9622-681FAC7CA36D}.Debug|x86.ActiveCfg = Debug|x86
-		{64DE607E-28C8-464D-9622-681FAC7CA36D}.Debug|x86.Build.0 = Debug|x86
-		{64DE607E-28C8-464D-9622-681FAC7CA36D}.Release|x86.ActiveCfg = Release|x86
-		{64DE607E-28C8-464D-9622-681FAC7CA36D}.Release|x86.Build.0 = Release|x86
 		{6D8963A3-32D3-4E73-9699-D4A831DC3A27}.Debug|x86.ActiveCfg = Debug|x86
 		{6D8963A3-32D3-4E73-9699-D4A831DC3A27}.Debug|x86.Build.0 = Debug|x86
 		{6D8963A3-32D3-4E73-9699-D4A831DC3A27}.Release|x86.ActiveCfg = Release|x86
@@ -31,6 +27,10 @@ Global
 		{AE483C29-042E-4226-BA52-D247CE7676DA}.Debug|x86.Build.0 = Debug|Any CPU
 		{AE483C29-042E-4226-BA52-D247CE7676DA}.Release|x86.ActiveCfg = Release|Any CPU
 		{AE483C29-042E-4226-BA52-D247CE7676DA}.Release|x86.Build.0 = Release|Any CPU
+		{E0E6169F-4E34-4FDE-90E3-5B5C62BB65F7}.Debug|x86.ActiveCfg = Debug|x86
+		{E0E6169F-4E34-4FDE-90E3-5B5C62BB65F7}.Debug|x86.Build.0 = Debug|x86
+		{E0E6169F-4E34-4FDE-90E3-5B5C62BB65F7}.Release|x86.ActiveCfg = Release|x86
+		{E0E6169F-4E34-4FDE-90E3-5B5C62BB65F7}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = FontBuddySample.Linux.csproj

@@ -24,7 +24,7 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
-    <DebugType>full</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
@@ -63,9 +63,9 @@
       <Project>{35253CE1-C864-4CD3-8249-4D1319748E8F}</Project>
       <Name>MonoGame.Framework.Linux</Name>
     </ProjectReference>
-    <ProjectReference Include="..\externals\FontBuddy\Linux\FontBuddy.Linux.csproj">
-      <Project>{64DE607E-28C8-464D-9622-681FAC7CA36D}</Project>
-      <Name>FontBuddy.Linux</Name>
+    <ProjectReference Include="..\externals\FontBuddy\Linux\FontBuddyLib.Linux.csproj">
+      <Project>{E0E6169F-4E34-4FDE-90E3-5B5C62BB65F7}</Project>
+      <Name>FontBuddyLib.Linux</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
