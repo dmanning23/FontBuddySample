@@ -46,9 +46,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Icon.png" />
-    <None Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\TestFont.xnb">
-      <Link>Content\TestFont.xnb</Link>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
@@ -67,5 +64,11 @@
       <Project>{E0E6169F-4E34-4FDE-90E3-5B5C62BB65F7}</Project>
       <Name>FontBuddyLib.Linux</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\TestFont.xnb">
+      <Link>Content\TestFont.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>
