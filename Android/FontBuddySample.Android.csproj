@@ -15,7 +15,7 @@
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AssemblyName>FontBuddySample.Android</AssemblyName>
-    <TargetFrameworkVersion>v2.3</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,6 +66,11 @@
     <Folder Include="Assets\Content\" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\TestFont.xnb">
+      <Link>Assets\Content\TestFont.xnb</Link>
+    </AndroidAsset>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\externals\FontBuddy\Android\FontBuddyLib.Android.csproj">
       <Project>{970D0C93-407B-4372-B236-0E799B22D90E}</Project>
       <Name>FontBuddyLib.Android</Name>
@@ -78,10 +83,5 @@
       <Project>{BA9476CF-99BA-4D03-92F2-73D2C5E58883}</Project>
       <Name>MonoGame.Framework.Android</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidAsset Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\TestFont.xnb">
-      <Link>Assets\Content\TestFont.xnb</Link>
-    </AndroidAsset>
   </ItemGroup>
 </Project>
