@@ -69,7 +69,9 @@ namespace FontBuddySample
 		protected override void Update (GameTime gameTime)
 		{
 			// For Mobile devices, this logic will close the Game when the Back button is pressed
-			if (GamePad.GetState (PlayerIndex.One).Buttons.Back == ButtonState.Pressed) {
+			if (GamePad.GetState (PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
+			    Keyboard.GetState(PlayerIndex.One).IsKeyDown(Keys.Escape))
+			{
 				Exit ();
 			}
 			// TODO: Add your update logic here			
