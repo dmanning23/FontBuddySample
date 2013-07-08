@@ -30,8 +30,6 @@ namespace FontBuddySample
 			graphics.IsFullScreen = true;
 #endif
 
-
-
 			buddies.Add(new FontBuddy());
 			buddies.Add(new ShadowTextBuddy());
 			buddies.Add(new PulsateBuddy());
