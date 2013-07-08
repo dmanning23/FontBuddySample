@@ -27,7 +27,7 @@ namespace FontBuddySample
 			graphics.PreferredBackBufferWidth = 853;
 			graphics.PreferredBackBufferHeight = 480;
 #else
-			graphics.IsFullScreen = true;
+			//graphics.IsFullScreen = true;
 #endif
 
 			buddies.Add(new FontBuddy());
