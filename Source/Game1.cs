@@ -22,7 +22,15 @@ namespace FontBuddySample
 		{
 			graphics = new GraphicsDeviceManager (this);
 			Content.RootDirectory = "Content";
+
+#if ANDROID
+			graphics.PreferredBackBufferWidth = 853;
+			graphics.PreferredBackBufferHeight = 480;
+#else
 			graphics.IsFullScreen = true;
+#endif
+
+
 
 			buddies.Add(new FontBuddy());
 			buddies.Add(new ShadowTextBuddy());

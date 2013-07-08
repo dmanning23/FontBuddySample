@@ -12,13 +12,11 @@ namespace FontBuddySample.Android
 {
 	[Activity (Label = "FontBuddySample.Android", 
 	           MainLauncher = true,
-	           Icon = "@drawable/icon",
-	           Theme = "@style/Theme.Splash",
-                AlwaysRetainTaskState=true,
 	           LaunchMode=LaunchMode.SingleInstance,
 	           ConfigurationChanges = ConfigChanges.Orientation | 
 	                                  ConfigChanges.KeyboardHidden | 
-	                                  ConfigChanges.Keyboard)]
+	                                  ConfigChanges.Keyboard,
+	           ScreenOrientation=ScreenOrientation.Landscape)]
 	public class Activity1 : AndroidGameActivity
 	{
 		protected override void OnCreate(Bundle bundle)
