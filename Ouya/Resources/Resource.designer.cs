@@ -55,7 +55,10 @@ namespace FontBuddySample.Ouya
 			public const int monoandroidsplash = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Splash = 2130837506;
+			public const int ouya_icon = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Splash = 2130837507;
 			
 			static Drawable()
 			{
@@ -83,11 +86,33 @@ namespace FontBuddySample.Ouya
 			}
 		}
 		
-		public partial class String
+		public partial class Raw
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int library_name = 2130968576;
+			public const int key = 2130968576;
+			
+			static Raw()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Raw()
+			{
+			}
+		}
+		
+		public partial class String
+		{
+			
+			// aapt resource value: 0x7f050002
+			public const int ApplicationName = 2131034114;
+			
+			// aapt resource value: 0x7f050001
+			public const int Hello = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int library_name = 2131034112;
 			
 			static String()
 			{
@@ -102,11 +127,11 @@ namespace FontBuddySample.Ouya
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Mono_Android_Theme_Splash = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int Mono_Android_Theme_Splash = 2131099648;
 			
-			// aapt resource value: 0x7f050001
-			public const int Theme_Splash = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int Theme_Splash = 2131099649;
 			
 			static Style()
 			{
