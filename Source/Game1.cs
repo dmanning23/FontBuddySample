@@ -21,6 +21,7 @@ namespace FontBuddySample
 		public Game1 ()
 		{
 			graphics = new GraphicsDeviceManager (this);
+			graphics.SupportedOrientations = DisplayOrientation.LandscapeLeft;
 			Content.RootDirectory = "Content";
 
 #if ANDROID
