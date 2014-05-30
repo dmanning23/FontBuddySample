@@ -1,12 +1,12 @@
 [submodule "externals/FontBuddy"]
 	path = externals/FontBuddy
-	url = https://github.com/dmanning23/FontBuddy.git
+	url = git@github.com:dmanning23/FontBuddy.git
 [submodule "externals/XNA"]
 	path = externals/XNA
-	url = https://github.com/dmanning23/XnaCompiledResources.git
+	url = git@github.com:dmanning23/XnaCompiledResources.git
 [submodule "externals/ouya-csharp"]
 	path = externals/ouya-csharp
-	url = https://github.com/dmanning23/ouya-csharp.git
+	url = git@github.com:dmanning23/ouya-csharp.git
 [submodule "externals/MonoGame"]
 	path = externals/MonoGame
-	url = https://github.com/dmanning23/MonoGame.git
+	url = git@github.com:dmanning23/MonoGame.git
