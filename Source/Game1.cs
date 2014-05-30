@@ -1,10 +1,8 @@
-using System;
-using System.Collections.Generic;
+using FontBuddyLib;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.Input;
-using FontBuddyLib;
+using System.Collections.Generic;
 
 namespace FontBuddySample
 {
@@ -37,6 +35,7 @@ namespace FontBuddySample
 			buddies.Add(new ShakyTextBuddy());
 			buddies.Add(new OppositeTextBuddy());
 			buddies.Add(new RainbowTextBuddy());
+			buddies.Add(new OutlineTextBuddy());
 		}
 
 		/// <summary>
