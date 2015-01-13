@@ -1,4 +1,5 @@
 using FontBuddyLib;
+using GameTimer;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -11,10 +12,14 @@ namespace FontBuddySample
 	/// </summary>
 	public class Game1 : Game
 	{
+		GameClock CurrentTime;
+
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 
 		List<FontBuddy> buddies = new List<FontBuddy>();
+
+		BouncyNumbers bounce;
 
 		public Game1 ()
 		{
@@ -29,6 +34,8 @@ namespace FontBuddySample
 			//graphics.IsFullScreen = true;
 #endif
 
+			CurrentTime = new GameClock();
+
 			buddies.Add(new FontBuddy());
 			buddies.Add(new ShadowTextBuddy());
 			buddies.Add(new PulsateBuddy());
@@ -36,9 +43,9 @@ namespace FontBuddySample
 			buddies.Add(new OppositeTextBuddy());
 			buddies.Add(new RainbowTextBuddy());
 
-			var crap = new BouncyNumbers(100);
-			crap.Timer.Start();
-			buddies.Add(crap);
+			bounce = new BouncyNumbers(100);
+			bounce.Start(CurrentTime);
+			buddies.Add(bounce);
 		}
 
 		/// <summary>
@@ -79,11 +86,20 @@ namespace FontBuddySample
 		{
 			// For Mobile devices, this logic will close the Game when the Back button is pressed
 			if (GamePad.GetState (PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
-			    Keyboard.GetState(PlayerIndex.One).IsKeyDown(Keys.Escape))
+			    Keyboard.GetState().IsKeyDown(Keys.Escape))
 			{
 				Exit ();
 			}
-			// TODO: Add your update logic here			
+
+			CurrentTime.Update(gameTime);
+
+			//restart the bounby numbers
+			if (Keyboard.GetState().IsKeyDown(Keys.Space))
+			{
+				bounce.Start(CurrentTime);
+			}
+
+			// TODO: Add your update logic here
 			base.Update (gameTime);
 		}
 
