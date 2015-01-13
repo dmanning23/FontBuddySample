@@ -35,7 +35,10 @@ namespace FontBuddySample
 			buddies.Add(new ShakyTextBuddy());
 			buddies.Add(new OppositeTextBuddy());
 			buddies.Add(new RainbowTextBuddy());
-			buddies.Add(new OutlineTextBuddy());
+
+			var crap = new BouncyNumbers(100);
+			crap.Timer.Start();
+			buddies.Add(crap);
 		}
 
 		/// <summary>
