@@ -38,7 +38,7 @@ namespace FontBuddySample
 
 			buddies.Add(new FontBuddy());
 			buddies.Add(new ShadowTextBuddy());
-			buddies.Add(new PulsateBuddy());
+			buddies.Add(new WrongTextBuddy());
 			buddies.Add(new ShakyTextBuddy());
 			buddies.Add(new OppositeTextBuddy());
 			buddies.Add(new RainbowTextBuddy());
