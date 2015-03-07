@@ -12,10 +12,12 @@ namespace FontBuddySample
 	/// </summary>
 	public class Game1 : Game
 	{
-		GameClock CurrentTime;
+		#region Properties
 
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
+
+		GameClock CurrentTime;
 
 		List<IFontBuddy> buddies = new List<IFontBuddy>();
 
@@ -25,6 +27,10 @@ namespace FontBuddySample
 
 		private const int start = 0;
 		private const int end = 4000;
+
+		#endregion //Properties
+
+		#region Methods
 
 		public Game1()
 		{
@@ -149,6 +155,8 @@ namespace FontBuddySample
 
 			base.Draw(gameTime);
 		}
+
+		#endregion //Methods
 	}
 }
 
