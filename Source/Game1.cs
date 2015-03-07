@@ -21,6 +21,9 @@ namespace FontBuddySample
 
 		BouncyNumbers bounce;
 
+		private const int start = 0;
+		private const int end = 4000;
+
 		public Game1()
 		{
 			graphics = new GraphicsDeviceManager(this);
@@ -43,8 +46,11 @@ namespace FontBuddySample
 			buddies.Add(new OppositeTextBuddy());
 			buddies.Add(new RainbowTextBuddy());
 
-			bounce = new BouncyNumbers(100);
-			bounce.Start(CurrentTime);
+			bounce = new BouncyNumbers()
+			{
+				Rescale = 1f
+			};
+			bounce.Start(start, end);
 			buddies.Add(bounce);
 		}
 
@@ -83,7 +89,7 @@ namespace FontBuddySample
 			//restart the bounby numbers
 			if (Keyboard.GetState().IsKeyDown(Keys.Space))
 			{
-				bounce.Start(CurrentTime);
+				bounce.Start(start, end);
 			}
 
 			// TODO: Add your update logic here
@@ -110,15 +116,15 @@ namespace FontBuddySample
 			foreach (FontBuddy myBuddy in buddies)
 			{
 				//draw the left justified text
-				myBuddy.Write(test, position, Justify.Left, 1.0f, Color.White, spriteBatch, CurrentTime.CurrentTime);
+				myBuddy.Write(test, position, Justify.Left, 1.0f, Color.White, spriteBatch, CurrentTime);
 
 				//draw the centered text
 				position.X = screen.Center.X;
-				myBuddy.Write(test, position, Justify.Center, 1.0f, Color.White, spriteBatch, CurrentTime.CurrentTime);
+				myBuddy.Write(test, position, Justify.Center, 1.0f, Color.White, spriteBatch, CurrentTime);
 
 				//draw the right justified text
 				position.X = screen.Right;
-				myBuddy.Write(test, position, Justify.Right, 1.0f, Color.White, spriteBatch, CurrentTime.CurrentTime);
+				myBuddy.Write(test, position, Justify.Right, 1.0f, Color.White, spriteBatch, CurrentTime);
 
 				//move to the start point for the next font
 				position.X = 0.0f;
