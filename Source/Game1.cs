@@ -17,9 +17,11 @@ namespace FontBuddySample
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 
-		List<FontBuddy> buddies = new List<FontBuddy>();
+		List<IFontBuddy> buddies = new List<IFontBuddy>();
 
 		BouncyNumbers bounce;
+
+		private NumberBuddy num;
 
 		private const int start = 0;
 		private const int end = 4000;
@@ -39,7 +41,7 @@ namespace FontBuddySample
 
 			CurrentTime = new GameClock();
 
-			buddies.Add(new FontBuddy());
+			//buddies.Add(new FontBuddy());
 			buddies.Add(new ShadowTextBuddy());
 			buddies.Add(new WrongTextBuddy());
 			buddies.Add(new ShakyTextBuddy());
@@ -52,6 +54,9 @@ namespace FontBuddySample
 			};
 			bounce.Start(start, end);
 			buddies.Add(bounce);
+
+			num = new NumberBuddy();
+			buddies.Add(num);
 		}
 
 		/// <summary>
@@ -64,7 +69,7 @@ namespace FontBuddySample
 			spriteBatch = new SpriteBatch(GraphicsDevice);
 
 			// TODO: use this.Content to load your game content here
-			foreach (FontBuddy myBuddy in buddies)
+			foreach (IFontBuddy myBuddy in buddies)
 			{
 				myBuddy.LoadContent(Content, "TestFont");
 			}
@@ -92,6 +97,15 @@ namespace FontBuddySample
 				bounce.Start(start, end);
 			}
 
+			if (Keyboard.GetState().IsKeyDown(Keys.A))
+			{
+				num.Add(100);
+			}
+			else if (Keyboard.GetState().IsKeyDown(Keys.Z))
+			{
+				num.Add(-100);
+			}
+
 			// TODO: Add your update logic here
 			base.Update(gameTime);
 		}
@@ -113,7 +127,7 @@ namespace FontBuddySample
 			string test = "FontBuddy!";
 
 			//draw all those fonts
-			foreach (FontBuddy myBuddy in buddies)
+			foreach (IFontBuddy myBuddy in buddies)
 			{
 				//draw the left justified text
 				myBuddy.Write(test, position, Justify.Left, 1.0f, Color.White, spriteBatch, CurrentTime);
