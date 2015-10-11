@@ -42,7 +42,8 @@ namespace FontBuddySample
 			graphics.PreferredBackBufferWidth = 853;
 			graphics.PreferredBackBufferHeight = 480;
 #else
-			//graphics.IsFullScreen = true;
+			graphics.PreferredBackBufferWidth = 1280;
+			graphics.PreferredBackBufferHeight = 720;
 #endif
 
 			CurrentTime = new GameClock();
@@ -128,7 +129,7 @@ namespace FontBuddySample
 
 			//get the start point
 			Rectangle screen = graphics.GraphicsDevice.Viewport.TitleSafeArea;
-			Vector2 position = new Vector2(screen.Left, screen.Top);
+			Vector2 position = new Vector2(screen.Left + 32, screen.Top + 32);
 
 			string test = "FontBuddy!";
 
@@ -143,11 +144,11 @@ namespace FontBuddySample
 				myBuddy.Write(test, position, Justify.Center, 1.0f, Color.White, spriteBatch, CurrentTime);
 
 				//draw the right justified text
-				position.X = screen.Right;
+				position.X = screen.Right - 32f;
 				myBuddy.Write(test, position, Justify.Right, 1.0f, Color.White, spriteBatch, CurrentTime);
 
 				//move to the start point for the next font
-				position.X = 0.0f;
+				position.X = 32f;
 				position.Y += myBuddy.Font.MeasureString(test).Y;
 			}
 
