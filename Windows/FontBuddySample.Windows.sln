@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddySample.Windows", "FontBuddySample.Windows.csproj", "{61E3BA26-E405-49F5-AC52-345B48813C20}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddy.Windows", "..\externals\FontBuddy\Windows\FontBuddy.Windows.csproj", "{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{909011B1-9595-4B48-92AF-0F15B5C10F9F}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{909011
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTimer.Windows", "..\externals\GameTimer\Windows\GameTimer.Windows.csproj", "{6B6D4188-5C03-4E16-923B-96FDBC85B91A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,30 +34,6 @@ Global
 		{61E3BA26-E405-49F5-AC52-345B48813C20}.Release|x64.Build.0 = Release|x64
 		{61E3BA26-E405-49F5-AC52-345B48813C20}.Release|x86.ActiveCfg = Release|x86
 		{61E3BA26-E405-49F5-AC52-345B48813C20}.Release|x86.Build.0 = Release|x86
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Debug|x64.ActiveCfg = Debug|x64
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Debug|x64.Build.0 = Debug|x64
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Debug|x86.ActiveCfg = Debug|x86
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Debug|x86.Build.0 = Debug|x86
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Release|x64.ActiveCfg = Release|x64
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Release|x64.Build.0 = Release|x64
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Release|x86.ActiveCfg = Release|x86
-		{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}.Release|x86.Build.0 = Release|x86
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Debug|x64.ActiveCfg = Debug|x64
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Debug|x64.Build.0 = Debug|x64
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Debug|x86.ActiveCfg = Debug|x86
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Debug|x86.Build.0 = Debug|x86
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|x64.ActiveCfg = Release|x64
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|x64.Build.0 = Release|x64
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|x86.ActiveCfg = Release|x86
-		{6B6D4188-5C03-4E16-923B-96FDBC85B91A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
