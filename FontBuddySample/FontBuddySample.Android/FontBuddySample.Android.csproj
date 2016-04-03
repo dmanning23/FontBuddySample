@@ -47,16 +47,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FontBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.Android.1.0.8\lib\FontBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.Android.1.0.9\lib\FontBuddy.Android.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GameTimer.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GameTimer.Android.1.0.4\lib\GameTimer.Android.dll</HintPath>
+      <HintPath>..\packages\GameTimer.Android.1.0.7\lib\GameTimer.Android.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Mono.Android" />
-    <Reference Include="MonoGame.Framework, Version=3.5.0.1678, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MonoGame.Framework.Android.3.5.0.1678\lib\MonoAndroid\MonoGame.Framework.dll</HintPath>
+    <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.Android.3.5.1.1679\lib\MonoAndroid\MonoGame.Framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="mscorlib" />

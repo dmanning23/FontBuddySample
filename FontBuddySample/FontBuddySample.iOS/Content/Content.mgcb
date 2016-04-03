@@ -3,7 +3,7 @@
 
 /outputDir:bin/$(Platform)
 /intermediateDir:obj/$(Platform)
-/platform:WindowsStoreApp
+/platform:iOS
 /config:
 /profile:Reach
 /compress:False

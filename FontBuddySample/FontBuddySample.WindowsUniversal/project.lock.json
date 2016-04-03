@@ -3,6 +3,19 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
+      "FontBuddy.WindowsUniversal/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "GameTimer.WindowsUniversal": "(1.0.0, )",
+          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+        },
+        "compile": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        }
+      },
       "GameTimer.WindowsUniversal/1.0.9": {
         "type": "package",
         "dependencies": {
@@ -281,7 +294,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUniversal/3.5.0.1678": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "type": "package",
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
@@ -1909,6 +1922,19 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
+      "FontBuddy.WindowsUniversal/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "GameTimer.WindowsUniversal": "(1.0.0, )",
+          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+        },
+        "compile": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        }
+      },
       "GameTimer.WindowsUniversal/1.0.9": {
         "type": "package",
         "dependencies": {
@@ -2180,7 +2206,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUniversal/3.5.0.1678": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "type": "package",
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
@@ -3672,6 +3698,19 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
+      "FontBuddy.WindowsUniversal/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "GameTimer.WindowsUniversal": "(1.0.0, )",
+          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+        },
+        "compile": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        }
+      },
       "GameTimer.WindowsUniversal/1.0.9": {
         "type": "package",
         "dependencies": {
@@ -3929,7 +3968,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUniversal/3.5.0.1678": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "type": "package",
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
@@ -5398,6 +5437,19 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
+      "FontBuddy.WindowsUniversal/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "GameTimer.WindowsUniversal": "(1.0.0, )",
+          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+        },
+        "compile": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        }
+      },
       "GameTimer.WindowsUniversal/1.0.9": {
         "type": "package",
         "dependencies": {
@@ -5676,7 +5728,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUniversal/3.5.0.1678": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "type": "package",
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
@@ -7168,6 +7220,19 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
+      "FontBuddy.WindowsUniversal/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "GameTimer.WindowsUniversal": "(1.0.0, )",
+          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+        },
+        "compile": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        }
+      },
       "GameTimer.WindowsUniversal/1.0.9": {
         "type": "package",
         "dependencies": {
@@ -7425,7 +7490,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUniversal/3.5.0.1678": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "type": "package",
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
@@ -8894,6 +8959,19 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
+      "FontBuddy.WindowsUniversal/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "GameTimer.WindowsUniversal": "(1.0.0, )",
+          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+        },
+        "compile": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        }
+      },
       "GameTimer.WindowsUniversal/1.0.9": {
         "type": "package",
         "dependencies": {
@@ -9172,7 +9250,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUniversal/3.5.0.1678": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "type": "package",
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
@@ -10664,6 +10742,19 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
+      "FontBuddy.WindowsUniversal/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "GameTimer.WindowsUniversal": "(1.0.0, )",
+          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+        },
+        "compile": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        },
+        "runtime": {
+          "lib/netcore/FontBuddy.WindowsUniversal.dll": {}
+        }
+      },
       "GameTimer.WindowsUniversal/1.0.9": {
         "type": "package",
         "dependencies": {
@@ -10921,7 +11012,7 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
-      "MonoGame.Framework.WindowsUniversal/3.5.0.1678": {
+      "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
         "type": "package",
         "compile": {
           "lib/netcore/MonoGame.Framework.dll": {}
@@ -12391,6 +12482,16 @@
     }
   },
   "libraries": {
+    "FontBuddy.WindowsUniversal/1.0.9": {
+      "sha512": "M+sJCjmP/Kq4TkE5LLR68n+JpAZQ+UXCVEakFbPvLOsekx05gaFITipKFFUW4qs0CeG0kO8fE18s/5EuOpVWHQ==",
+      "type": "package",
+      "files": [
+        "FontBuddy.WindowsUniversal.1.0.9.nupkg.sha512",
+        "FontBuddy.WindowsUniversal.nuspec",
+        "lib/netcore/FontBuddy.WindowsUniversal.dll",
+        "lib/netcore/FontBuddy.WindowsUniversal.pdb"
+      ]
+    },
     "GameTimer.WindowsUniversal/1.0.9": {
       "sha512": "5aPE8oSERwX6B8Xciq5F5D3TbqZQCUIls7qGWoDPtFKRbysCrCEJx7Ha1LUeoWGCZhp2zESVPAtWho6mxylMSw==",
       "type": "package",
@@ -13022,11 +13123,11 @@
         "ref/xamarinmac20/_._"
       ]
     },
-    "MonoGame.Framework.WindowsUniversal/3.5.0.1678": {
-      "sha512": "ZkxpPKeVCcDM0k5V+i5yyPryad12aOzYeGIVL/CewYCRAYYCVgX+/P9BsRYi4GPS8zBfbRgPIqdrcBYNz4rSog==",
+    "MonoGame.Framework.WindowsUniversal/3.5.1.1679": {
+      "sha512": "ocVIHOGX1PA4HdvpI3/uKQVp6x1CPbmKvSdpk2bmpqHZ2PIOKqp5BjbkbOwKbZp8IdaLNbWQjG3Aonkezn2eBQ==",
       "type": "package",
       "files": [
-        "MonoGame.Framework.WindowsUniversal.3.5.0.1678.nupkg.sha512",
+        "MonoGame.Framework.WindowsUniversal.3.5.1.1679.nupkg.sha512",
         "MonoGame.Framework.WindowsUniversal.nuspec",
         "lib/netcore/MonoGame.Framework.dll",
         "lib/netcore/MonoGame.Framework.pri",
@@ -15560,8 +15661,10 @@
   },
   "projectFileDependencyGroups": {
     "": [
+      "FontBuddy.WindowsUniversal >= 1.0.9",
       "GameTimer.WindowsUniversal >= 1.0.9",
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
+      "MonoGame.Framework.WindowsUniversal >= 3.5.1.1679"
     ],
     "UAP,Version=v10.0": []
   }
