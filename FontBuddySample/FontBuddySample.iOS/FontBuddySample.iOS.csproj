@@ -103,7 +103,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FontBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.iOS.1.0.9\lib\FontBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.iOS.1.0.10\lib\FontBuddy.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GameTimer.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
