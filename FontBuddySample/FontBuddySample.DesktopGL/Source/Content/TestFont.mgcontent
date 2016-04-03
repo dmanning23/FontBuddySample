@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>Y:/Documents/Projects/FontBuddySample/FontBuddySample/FontBuddySample.DesktopGL/Content/../../../Source/Content/TestFont.spritefont</SourceFile>
+  <SourceTime>2015-10-11T13:54:55-05:00</SourceTime>
+  <DestFile>Y:/Documents/Projects/FontBuddySample/FontBuddySample/FontBuddySample.DesktopGL/Content/bin/DesktopGL/../../../Source/Content/TestFont.xnb</DestFile>
+  <DestTime>2016-04-02T14:10:29-05:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2016-03-30T01:36:08-05:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2016-03-30T01:36:08-05:00</ProcessorTime>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
