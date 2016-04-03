@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>Y:/Documents/Projects/FontBuddySample/FontBuddySample/FontBuddySample.Android/Content/../../../Source/Content/TestFont.spritefont</SourceFile>
-  <SourceTime>2015-10-11T13:54:55-05:00</SourceTime>
-  <DestFile>Y:/Documents/Projects/FontBuddySample/FontBuddySample/FontBuddySample.Android/Content/bin/Android/../../../Source/Content/TestFont.xnb</DestFile>
-  <DestTime>2016-04-02T22:36:40-05:00</DestTime>
+  <SourceFile>C:/Projects/FontBuddySample/FontBuddySample/FontBuddySample.Android/Content/../../../Source/Content/TestFont.spritefont</SourceFile>
+  <SourceTime>2016-04-02T23:54:36.2993871-05:00</SourceTime>
+  <DestFile>C:/Projects/FontBuddySample/FontBuddySample/FontBuddySample.Android/Content/bin/Android/../../../Source/Content/TestFont.xnb</DestFile>
+  <DestTime>2016-04-02T23:55:07.3102846-05:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2016-03-30T01:36:08-05:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
