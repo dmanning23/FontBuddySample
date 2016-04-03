@@ -16,6 +16,7 @@ TestResults
 # Build results
 [Dd]ebug/
 [Rr]elease/
+FontBuddySample/FontBuddySample.DesktopGL/Source
 x64/
 *_i.c
 *_p.c

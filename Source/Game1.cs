@@ -93,7 +93,8 @@ namespace FontBuddySample
 			if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
 				Keyboard.GetState().IsKeyDown(Keys.Escape))
 			{
-				Exit();
+				//Application.Exit();
+				//Exit();
 			}
 
 			CurrentTime.Update(gameTime);
