@@ -3,30 +3,37 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
-      "FontBuddy.WindowsUniversal/1.0.11": {
+      "FontBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
-          "GameTimer.WindowsUniversal": "(1.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "GameTimer": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         }
       },
-      "GameTimer.WindowsUniversal/1.0.9": {
+      "GameTimer/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "(5.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -1962,30 +1969,37 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "FontBuddy.WindowsUniversal/1.0.11": {
+      "FontBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
-          "GameTimer.WindowsUniversal": "(1.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "GameTimer": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         }
       },
-      "GameTimer.WindowsUniversal/1.0.9": {
+      "GameTimer/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "(5.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -3787,30 +3801,37 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "FontBuddy.WindowsUniversal/1.0.11": {
+      "FontBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
-          "GameTimer.WindowsUniversal": "(1.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "GameTimer": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         }
       },
-      "GameTimer.WindowsUniversal/1.0.9": {
+      "GameTimer/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "(5.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -5569,30 +5590,37 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "FontBuddy.WindowsUniversal/1.0.11": {
+      "FontBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
-          "GameTimer.WindowsUniversal": "(1.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "GameTimer": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         }
       },
-      "GameTimer.WindowsUniversal/1.0.9": {
+      "GameTimer/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "(5.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -7403,30 +7431,37 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "FontBuddy.WindowsUniversal/1.0.11": {
+      "FontBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
-          "GameTimer.WindowsUniversal": "(1.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "GameTimer": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         }
       },
-      "GameTimer.WindowsUniversal/1.0.9": {
+      "GameTimer/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "(5.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -9185,30 +9220,37 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "FontBuddy.WindowsUniversal/1.0.11": {
+      "FontBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
-          "GameTimer.WindowsUniversal": "(1.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "GameTimer": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         }
       },
-      "GameTimer.WindowsUniversal/1.0.9": {
+      "GameTimer/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "(5.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -11019,30 +11061,37 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "FontBuddy.WindowsUniversal/1.0.11": {
+      "FontBuddy/1.0.1": {
         "type": "package",
         "dependencies": {
-          "GameTimer.WindowsUniversal": "(1.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "GameTimer": "1.0.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/FontBuddyLib.WindowsUniversal.dll": {}
+          "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll": {}
         }
       },
-      "GameTimer.WindowsUniversal/1.0.9": {
+      "GameTimer/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.UniversalWindowsPlatform": "(5.0.0, )",
-          "MonoGame.Framework.WindowsUniversal": "(3.5.0, )"
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
+          "MonoGame.Framework.WindowsUniversal": "3.5.0",
+          "SharpDX": "[3.0.0]",
+          "SharpDX.Direct2D1": "[3.0.0]",
+          "SharpDX.Direct3D11": "[3.0.0]"
         },
         "compile": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         },
         "runtime": {
-          "lib/netcore/GameTimer.WindowsUniversal.dll": {}
+          "lib/uap10.0/GameTimer.WindowsUniversal.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -12802,24 +12851,36 @@
     }
   },
   "libraries": {
-    "FontBuddy.WindowsUniversal/1.0.11": {
-      "sha512": "YO6LAtsBFSYV5lGLnRdDEt244h7nAvwC+9cQCpsgW4rPIRmBG1mXcREvHp6skHRCw4ikEt8dKskCnJxArBEGLA==",
+    "FontBuddy/1.0.1": {
+      "sha512": "NAcQYSq/qKyfHrjG84ZeD17WLFOtpSMqRHjvH/OZCOrax30K9C52yHoxyMfh+5l8Qp8meUEfa75Dw/lF/F4Bwg==",
       "type": "package",
       "files": [
-        "FontBuddy.WindowsUniversal.1.0.11.nupkg.sha512",
-        "FontBuddy.WindowsUniversal.nuspec",
-        "lib/netcore/FontBuddyLib.WindowsUniversal.dll",
-        "lib/netcore/FontBuddyLib.WindowsUniversal.pdb"
+        "FontBuddy.1.0.1.nupkg.sha512",
+        "FontBuddy.nuspec",
+        "lib/MonoAndroid10/FontBuddyLib.Android.dll",
+        "lib/MonoAndroid10/FontBuddyLib.Android.pdb",
+        "lib/Xamarin.iOS10/FontBuddyLib.iOS.dll",
+        "lib/Xamarin.iOS10/FontBuddyLib.iOS.pdb",
+        "lib/net451/FontBuddyLib.DesktopGL.dll",
+        "lib/net451/FontBuddyLib.DesktopGL.pdb",
+        "lib/uap10.0/FontBuddyLib.WindowsUniversal.dll",
+        "lib/uap10.0/FontBuddyLib.WindowsUniversal.pdb"
       ]
     },
-    "GameTimer.WindowsUniversal/1.0.9": {
-      "sha512": "5aPE8oSERwX6B8Xciq5F5D3TbqZQCUIls7qGWoDPtFKRbysCrCEJx7Ha1LUeoWGCZhp2zESVPAtWho6mxylMSw==",
+    "GameTimer/1.0.1": {
+      "sha512": "6IhhpOqoe+JGY79fw0O8igx1RwAj3fZgCtpcwfaPMZdTkekUhPFkVZH3PKSyJuNGS5wNzqqr9ZrB/n52NfspQw==",
       "type": "package",
       "files": [
-        "GameTimer.WindowsUniversal.1.0.9.nupkg.sha512",
-        "GameTimer.WindowsUniversal.nuspec",
-        "lib/netcore/GameTimer.WindowsUniversal.dll",
-        "lib/netcore/GameTimer.WindowsUniversal.pdb"
+        "GameTimer.1.0.1.nupkg.sha512",
+        "GameTimer.nuspec",
+        "lib/MonoAndroid10/GameTimer.Android.dll",
+        "lib/MonoAndroid10/GameTimer.Android.pdb",
+        "lib/Xamarin.iOS10/GameTimer.iOS.dll",
+        "lib/Xamarin.iOS10/GameTimer.iOS.pdb",
+        "lib/net452/GameTimer.DesktopGL.dll",
+        "lib/net452/GameTimer.DesktopGL.pdb",
+        "lib/uap10.0/GameTimer.WindowsUniversal.dll",
+        "lib/uap10.0/GameTimer.WindowsUniversal.pdb"
       ]
     },
     "Microsoft.CSharp/4.0.0": {
@@ -16159,8 +16220,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "FontBuddy.WindowsUniversal >= 1.0.11",
-      "GameTimer.WindowsUniversal >= 1.0.9",
+      "FontBuddy >= 1.0.1",
+      "GameTimer >= 1.0.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
       "MonoGame.Framework.WindowsUniversal >= 3.5.1.1679",
       "SharpDX >= 3.0.0",
