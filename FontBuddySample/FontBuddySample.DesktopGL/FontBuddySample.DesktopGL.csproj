@@ -66,8 +66,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="FontBuddy.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.DesktopGL.1.0.9\lib\FontBuddy.DesktopGL.dll</HintPath>
+    <Reference Include="FontBuddyLib.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontBuddy.DesktopGL.1.0.11\lib\FontBuddyLib.DesktopGL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GameTimer.DesktopGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
