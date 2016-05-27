@@ -55,6 +55,18 @@ namespace FontBuddySample
 			buddies.Add(new OppositeTextBuddy());
 			buddies.Add(new RainbowTextBuddy());
 
+			buddies.Add(new PulsateBuddy
+			{
+			});
+			buddies.Add(new PulsateBuddy
+			{
+				PulsateSpeed = 8f
+			});
+			buddies.Add(new PulsateBuddy
+			{
+				PulsateSize = 2f,
+			});
+
 			bounce = new BouncyNumbers()
 			{
 				Rescale = 1f
