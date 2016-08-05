@@ -3,7 +3,7 @@
   "version": 2,
   "targets": {
     "UAP,Version=v10.0": {
-      "FontBuddy/1.0.3": {
+      "FontBuddy/1.0.7": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -1969,7 +1969,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "FontBuddy/1.0.3": {
+      "FontBuddy/1.0.7": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -3801,7 +3801,7 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "FontBuddy/1.0.3": {
+      "FontBuddy/1.0.7": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -5590,7 +5590,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "FontBuddy/1.0.3": {
+      "FontBuddy/1.0.7": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -7431,7 +7431,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "FontBuddy/1.0.3": {
+      "FontBuddy/1.0.7": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -9220,7 +9220,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "FontBuddy/1.0.3": {
+      "FontBuddy/1.0.7": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -11061,7 +11061,7 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "FontBuddy/1.0.3": {
+      "FontBuddy/1.0.7": {
         "type": "package",
         "dependencies": {
           "GameTimer": "1.0.0",
@@ -12851,11 +12851,11 @@
     }
   },
   "libraries": {
-    "FontBuddy/1.0.3": {
-      "sha512": "cpK1UlqJi0/lNxd1Mcr5kOX2Y/mEjZ2E7BtT5RtkFhv2hgPQW/1kJG7MwpuJqI1qT3echnzWO+z3t/e3vLmhhQ==",
+    "FontBuddy/1.0.7": {
+      "sha512": "QRtsFk1tfIIakvt7GSOSsmPGf85/uXenS80+7kJE869uIa6YEXxAMbpxQTCHyRIF52qHetulnF0TI6vFXte6aw==",
       "type": "package",
       "files": [
-        "FontBuddy.1.0.3.nupkg.sha512",
+        "FontBuddy.1.0.7.nupkg.sha512",
         "FontBuddy.nuspec",
         "lib/MonoAndroid10/FontBuddyLib.Android.dll",
         "lib/MonoAndroid10/FontBuddyLib.Android.pdb",
@@ -16220,7 +16220,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "FontBuddy >= 1.0.3",
+      "FontBuddy >= 1.0.7",
       "GameTimer >= 1.0.1",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0",
       "MonoGame.Framework.WindowsUniversal >= 3.5.1.1679",
