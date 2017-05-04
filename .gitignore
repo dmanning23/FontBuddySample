@@ -16,7 +16,6 @@ TestResults
 # Build results
 [Dd]ebug/
 [Rr]elease/
-FontBuddySample/FontBuddySample.DesktopGL/Source
 x64/
 *_i.c
 *_p.c
@@ -37,8 +36,15 @@ x64/
 *.vspscc
 *.vssscc
 .builds
-*.cachefile
 *.userprefs
+*.cachefile
+*.apk
+*.nupkg
+*csproj.bak
+.DS_Store
+._.DS_Store
+UpgradeLog.htm
+project.lock.json
 
 # Visual C++ cache files
 ipch/

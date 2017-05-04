@@ -144,7 +144,7 @@ namespace FontBuddySample
 			Rectangle screen = graphics.GraphicsDevice.Viewport.TitleSafeArea;
 			Vector2 position = new Vector2(screen.Left + 32, screen.Top + 32);
 
-			string test = "FontBuddy!";
+			string test = "Fontbuddy!";
 
 			//draw all those fonts
 			foreach (IFontBuddy myBuddy in buddies)
@@ -162,7 +162,10 @@ namespace FontBuddySample
 
 				//move to the start point for the next font
 				position.X = 32f;
-				position.Y += myBuddy.Font.MeasureString(test).Y;
+				if (!string.IsNullOrEmpty(test))
+				{
+					position.Y += myBuddy.Font.MeasureString(test).Y;
+				}
 			}
 
 			spriteBatch.End();
