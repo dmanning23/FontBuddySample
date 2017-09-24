@@ -60,11 +60,15 @@ namespace FontBuddySample
 			});
 			buddies.Add(new PulsateBuddy
 			{
-				PulsateSpeed = 8f
+				PulsateSize = 0.5f
 			});
 			buddies.Add(new PulsateBuddy
 			{
 				PulsateSize = 2f,
+			});
+			buddies.Add(new PulsateBuddy
+			{
+				StraightPulsate = false
 			});
 
 			bounce = new BouncyNumbers()
