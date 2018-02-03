@@ -26,6 +26,8 @@ namespace FontBuddySample.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::FontBuddyLib.Android.Resource.String.ApplicationName = global::FontBuddySample.Android.Resource.String.ApplicationName;
+			global::FontBuddyLib.Android.Resource.String.Hello = global::FontBuddySample.Android.Resource.String.Hello;
 			global::GameTimer.Android.Resource.String.ApplicationName = global::FontBuddySample.Android.Resource.String.ApplicationName;
 			global::GameTimer.Android.Resource.String.Hello = global::FontBuddySample.Android.Resource.String.Hello;
 		}
