@@ -78,7 +78,7 @@ namespace FontBuddySample
 			bounce.Start(start, end);
 			buddies.Add(bounce);
 
-			num = new NumberBuddy();
+			num = new NumberBuddy(100);
 			buddies.Add(num);
 		}
 
@@ -109,8 +109,9 @@ namespace FontBuddySample
 			if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
 				Keyboard.GetState().IsKeyDown(Keys.Escape))
 			{
-				//Application.Exit();
-				//Exit();
+#if !__IOS__
+				Exit();
+#endif
 			}
 
 			CurrentTime.Update(gameTime);
