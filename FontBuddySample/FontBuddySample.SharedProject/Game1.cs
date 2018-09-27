@@ -49,7 +49,7 @@ namespace FontBuddySample
 			CurrentTime = new GameClock();
 
 			//buddies.Add(new FontBuddy());
-			buddies.Add(new ShadowTextBuddy());
+			buddies.Add(new ShadowTextBuddy() { SpriteEffects = SpriteEffects.FlipVertically | SpriteEffects.FlipHorizontally });
 			buddies.Add(new WrongTextBuddy());
 			buddies.Add(new ShakyTextBuddy());
 			buddies.Add(new OppositeTextBuddy());
@@ -68,7 +68,8 @@ namespace FontBuddySample
 			});
 			buddies.Add(new PulsateBuddy
 			{
-				StraightPulsate = false
+				StraightPulsate = false,
+				SpriteEffects = SpriteEffects.FlipVertically | SpriteEffects.FlipHorizontally
 			});
 
 			bounce = new BouncyNumbers()
