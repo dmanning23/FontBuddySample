@@ -1,8 +1,8 @@
 ﻿{
   "dependencies": {
-    "FontBuddy": "1.0.30",
-    "GameTimer": "1.0.7",
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
+    "FontBuddy": "1.0.35",
+    "GameTimer": "1.0.8",
+    "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9",
     "MonoGame.Framework.WindowsUniversal": "3.6.0.1625",
     "SharpDX": "3.0.0",
     "SharpDX.Direct2D1": "3.0.0",

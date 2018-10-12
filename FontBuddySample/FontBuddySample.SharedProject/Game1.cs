@@ -74,12 +74,16 @@ namespace FontBuddySample
 
 			bounce = new BouncyNumbers()
 			{
-				Rescale = 1f
+				Rescale = 1f,
 			};
 			bounce.Start(start, end);
 			buddies.Add(bounce);
 
-			num = new NumberBuddy(100);
+			num = new NumberBuddy(100)
+			{
+				SpriteEffects = SpriteEffects.FlipHorizontally | SpriteEffects.FlipVertically,
+				//Rotation = MathHelper.ToRadians(-90),
+			};
 			buddies.Add(num);
 		}
 
