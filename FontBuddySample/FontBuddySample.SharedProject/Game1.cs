@@ -99,7 +99,7 @@ namespace FontBuddySample
 			// TODO: use this.Content to load your game content here
 			foreach (IFontBuddy myBuddy in buddies)
 			{
-				myBuddy.LoadContent(Content, "TestFont");
+				myBuddy.LoadContent(Content, "ariblk", true, 64);
 			}
 		}
 
@@ -174,7 +174,7 @@ namespace FontBuddySample
 				position.X = 32f;
 				if (!string.IsNullOrEmpty(test))
 				{
-					position.Y += myBuddy.Font.MeasureString(test).Y;
+					position.Y += myBuddy.MeasureString(test).Y;
 				}
 			}
 

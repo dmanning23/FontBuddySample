@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddySample.Android", "FontBuddySample.Android\FontBuddySample.Android.csproj", "{FACB7BC3-19B2-4800-94DE-5B01D6B22C2A}"
 EndProject
@@ -15,7 +15,6 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FontBuddySample.SharedProje
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		FontBuddySample.SharedProject\FontBuddySample.SharedProject.projitems*{1eedc16b-d377-4416-8502-12aeca4ac62c}*SharedItemsImports = 4
 		FontBuddySample.SharedProject\FontBuddySample.SharedProject.projitems*{6d314787-bf0c-47a8-a500-0f3cbc01a1bd}*SharedItemsImports = 13
 		FontBuddySample.SharedProject\FontBuddySample.SharedProject.projitems*{aed266ab-757b-4017-abe9-6b41da81f511}*SharedItemsImports = 4
 		FontBuddySample.SharedProject\FontBuddySample.SharedProject.projitems*{bae4a616-0d6f-452d-a448-f31feab2504f}*SharedItemsImports = 4

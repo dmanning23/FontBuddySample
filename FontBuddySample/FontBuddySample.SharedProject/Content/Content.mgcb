@@ -10,8 +10,14 @@
 
 #-------------------------------- References --------------------------------#
 
+/reference:SpriteFontPlus.Content.dll
 
 #---------------------------------- Content ---------------------------------#
+
+#begin ariblk.ttf
+/importer:BinaryFontSourceImporter
+/processor:BinaryFontDocumentProcessor
+/build:ariblk.ttf
 
 #begin TestFont.spritefont
 /importer:FontDescriptionImporter
