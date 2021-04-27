@@ -152,7 +152,7 @@ namespace FontBuddySample
 
 			//get the start point
 			Rectangle screen = graphics.GraphicsDevice.Viewport.TitleSafeArea;
-			Vector2 position = new Vector2(screen.Left + 32, screen.Top + 32);
+			Vector2 position = new Vector2(screen.Left + 32, screen.Top);
 
 			string test = "Fontbuddy!";
 
