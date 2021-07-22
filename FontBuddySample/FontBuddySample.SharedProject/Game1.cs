@@ -58,18 +58,9 @@ namespace FontBuddySample
 			buddies.Add(new PulsateBuddy
 			{
 			});
-			buddies.Add(new PulsateBuddy
+			buddies.Add(new OutlineTextBuddy
 			{
-				PulsateSize = 0.5f
-			});
-			buddies.Add(new PulsateBuddy
-			{
-				PulsateSize = 2f,
-			});
-			buddies.Add(new PulsateBuddy
-			{
-				StraightPulsate = false,
-				SpriteEffects = SpriteEffects.FlipVertically | SpriteEffects.FlipHorizontally
+				OutlineSize = 1
 			});
 
 			bounce = new BouncyNumbers()
