@@ -1,5 +1,7 @@
 using FontBuddyLib;
 using GameTimer;
+using System;
+using System.IO;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -10,7 +12,7 @@ namespace FontBuddySample
 	/// <summary>
 	/// This is the main type for your game
 	/// </summary>
-	public class Game1 : Game
+	public class Game1 : Microsoft.Xna.Framework.Game
 	{
 		#region Properties
 
@@ -90,7 +92,8 @@ namespace FontBuddySample
 			// TODO: use this.Content to load your game content here
 			foreach (IFontBuddy myBuddy in buddies)
 			{
-				myBuddy.LoadContent(Content, "ariblk", true, 64);
+				//myBuddy.LoadContent(Content, "ariblk", true, 64);
+				myBuddy.LoadContent(Content, "TestFont", false, 64);
 			}
 		}
 
