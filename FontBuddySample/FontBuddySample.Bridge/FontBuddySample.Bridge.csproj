@@ -29,8 +29,6 @@
     </None>
   </ItemGroup>
 
-
-
   <Import Project="..\FontBuddySample.SharedProject\FontBuddySample.SharedProject.projitems" Label="Shared" />
 
 </Project>
